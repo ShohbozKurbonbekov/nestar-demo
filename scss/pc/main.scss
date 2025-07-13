@@ -330,4 +330,38 @@
       }
     }
   }
+
+  .header-basic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 560px;
+    background-image: url("/img/banner/properties.png");
+    background-size: cover;
+    box-shadow: inset 10px 40px 150px 40px rgb(24 22 36);
+
+    .container {
+      width: 1300px;
+      margin: 0 auto;
+      height: 100%;
+
+      strong {
+        color: rgb(255, 255, 255);
+        font-family: $font;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 72px;
+        letter-spacing: 2%;
+        text-transform: capitalize;
+      }
+
+      span {
+        color: rgb(255, 255, 255);
+        font-family: $font;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 26px;
+      }
+    }
+  }
 }
