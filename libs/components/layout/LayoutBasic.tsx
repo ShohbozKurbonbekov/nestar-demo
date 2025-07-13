@@ -16,7 +16,7 @@ const withLayoutBasic = (Component: any) => {
           </Stack>
           <Stack className="header-basic">
             <Stack className="container">
-              <strong>Property Search</strong>
+              <strong>Search</strong>
               <span> we are glad to see you again!</span>
             </Stack>
           </Stack>
