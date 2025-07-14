@@ -6,6 +6,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import PopularProperties from "@/libs/components/homepage/PopularProperties";
+import Advertisement from "@/libs/components/homepage/Advertisement";
+import TopProperties from "@/libs/components/homepage/TopProperties";
 
 const Home: NextPage = () => {
   return (
@@ -13,9 +15,9 @@ const Home: NextPage = () => {
       <Stack className="home-page">
         <TrendProperties />
         <PopularProperties />
-        {/* <Advertisement />
+        <Advertisement />
         <TopProperties />
-        <TopAgents /> */}
+        {/* <TopAgents /> */}
       </Stack>
     </>
   );
