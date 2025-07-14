@@ -1,13 +1,11 @@
 import TrendProperties from "@/libs/components/homepage/TrendProperties";
 import withLayoutMain from "@/libs/components/layout/LayoutHome";
-import { Box, Container, Stack } from "@mui/material";
+import { Stack } from "@mui/material";
 import { NextPage } from "next";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
 import PopularProperties from "@/libs/components/homepage/PopularProperties";
 import Advertisement from "@/libs/components/homepage/Advertisement";
 import TopProperties from "@/libs/components/homepage/TopProperties";
+import TopAgents from "@/libs/components/homepage/TopAgents";
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +15,7 @@ const Home: NextPage = () => {
         <PopularProperties />
         <Advertisement />
         <TopProperties />
-        {/* <TopAgents /> */}
+        <TopAgents />
       </Stack>
     </>
   );
